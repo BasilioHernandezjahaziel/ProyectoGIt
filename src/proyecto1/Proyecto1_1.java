@@ -17,7 +17,10 @@ public class Proyecto1_1 {
     public static void main(String[] args) {
         System.out.println("Hola mundo!");
         Persona p=new Persona();
-        
+        p.setClave("01");
+        p.setNombre("juan");
+        p.setDireccion("Av 11");
+        p.setTelefono("272-135-145-12");
     }
     
 }
